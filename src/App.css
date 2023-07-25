@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  box-sizing: border-box;
 }
 
 .App-logo {
@@ -35,4 +36,35 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.person-card {
+  border: 2px solid black;
+  display: flex;
+  height: 150px;
+  width: 50%;
+  margin: auto;
+  padding: 5px;
+  text-align: left;
+  margin-bottom: 12px;
+}
+.bold {
+  font-weight: bolder;
+}
+.card p {
+  margin-bottom: 3px;
+  font-size: 20px;
+}
+
+.greeting-card,
+.random-card1,
+.random-card2,
+.color-box {
+  border: 2px solid black;
+  height: 50px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 12px;
+  text-align: left;
+  font-size: 40px;
 }
